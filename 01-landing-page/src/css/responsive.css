@@ -1,0 +1,34 @@
+@media (max-width: 425px) {
+    body {
+        background: var(--background) url('../img/bg-mobile.svg') no-repeat;
+    }
+
+    .about {
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+        margin: 10px 20px;
+    }
+
+    .about img {
+        max-width: 70%;
+    }
+
+    .about .info{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .about .info h1 {
+        font-size: 3rem;
+    }
+
+  .footer{
+    margin-top: 20px;
+    float: none;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
